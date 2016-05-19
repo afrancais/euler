@@ -1,0 +1,812 @@
+%YAML 1.1
+---
+# campaign.deal
+-
+  name: Pompe à  chaleur (regroupement) 
+  uuid: 098b7e24-3fb4-11e2-8eb2-00259050d160
+  bag_of_words: ["pompe a chaleur", "climatisation r\u00e9versible"]
+-
+  name: Isolation (regroupement) 
+  uuid: 114c639a-3fb3-11e2-8eb2-00259050d160
+  bag_of_words: ["isolation thermique", "isolation", "\u00e9tanch\u00e9it\u00e9", "d\u00e9perdition thermique", "\u00e9conomie d'\u00e9nergies"]
+-
+  name: Chauffagiste (Regroupement)
+  uuid: 190ca1bc-2e51-11e2-8eb2-00259050d160
+  bag_of_words: ["chauffagiste", "chauffage", "installation de chaudi\u00e8re", "economie d'\u00e9nergie"]
+-
+  name: Jardinier et Jardin (regroupement) 
+  uuid: 1fe5d4c2-3fb3-11e2-8eb2-00259050d160
+  bag_of_words: ["arrosage automatique", "cr\u00e9ation de jardins", "cr\u00e9ation de pelouses", "cr\u00e9ation de parcs", "am\u00e9lioration de jardin", "am\u00e9lioration de terrasse", "entretien de jardin", "d\u00e9coration de jardin", "patio, pergola, treillage ou fontaine"]
+-
+  name: Chauffage géothermique (regroupement)
+  uuid: 20dfcf42-3fb1-11e2-8eb2-00259050d160
+  bag_of_words: ["chauffage g\u00e9othermique", "puit canadien", "puit provencal", "g\u00e9othermie", "pompe \u00e0 chaleur"]
+-
+  name: Élagage (regroupement) 
+  uuid: 21dcc62e-3fb2-11e2-8eb2-00259050d160
+  bag_of_words: ["\u00e9lagage d'arbre", "taille d'arbre", "coupe branche", "abattage d'arbre", "couper tronc d'arbre"]
+-
+  name: "Combles : isolation thermique"
+  uuid: 23b0aefa-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["isolation des combles", "isolation thermique des combles"]
+-
+  name: Fourniture et pose de faux plafonds / plafond tendu
+  uuid: 23b0e528-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["pose de plafond", "pose de faux-plafond", "pose de plafond tendu"]
+-
+  name: Traitement de l'eau / adoucisseur / osmoseur
+  uuid: 23b43d90-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["traitement de l'eau", "adoucisseur", "osmoseur", "duret\u00e9 de l'eau", "purification"]
+-
+  name: Vérification de votre chauffage et/ou mise en service
+  uuid: 23b46ffe-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["v\u00e9rification chauffage", "norme chauffage", "d\u00e9marrage chauffage", "mise en service chauffage"]
+-
+  name: Vérification de votre installation électrique
+  uuid: 23b4a28a-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["v\u00e9rification d'installation \u00e9lectrique", "s\u00e9curit\u00e9", "normes \u00e9lectriques", "r\u00e9glementation"]
+-
+  name: Etanchéité - Isolation des toitures
+  uuid: 23b5fc98-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["isolation de toiture", "\u00e9tanch\u00e9it\u00e9 de toiture", "toiture humide", "tuile perc\u00e9e"]
+-
+  name: Fourniture et pose d'isolation thermique dans les combles
+  uuid: 23b62dc6-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["pose d'isolation thermique des combles", "isolation thermique des combles"]
+-
+  name: Réparation de cheminée sur toiture
+  uuid: 23b7ba56-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["r\u00e9paration de chemin\u00e9e", "r\u00e9paration de chemin\u00e9e sur toiture"]
+-
+  name: "Chauffage électrique : Installation, rénovation"
+  uuid: 23b7faa2-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["chauffage \u00e9lectrique"]
+-
+  name: "Chauffage solaire : Installation, rénovation"
+  uuid: 23b82afe-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["chauffage solaire", "chauffage photovolta\u00efque"]
+-
+  name: Contrats d'entretien pour votre chaudière
+  uuid: 23b85af6-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["entretien de chaudi\u00e8re", "contrat d'entretien de chaudi\u00e8re"]
+-
+  name: Dépannage de convecteurs électriques
+  uuid: 23b88b3e-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["d\u00e9pannage de convecteur \u00e9lectrique"]
+-
+  name: Entretien et dépannage de chaudière, chauffe-eau, chauffe-bain
+  uuid: 23b8bbe0-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["d\u00e9pannage chaudi\u00e8re et chauffe-eau", "entretien chaudi\u00e8re et chauffe-eau", "d\u00e9tartrage chaudi\u00e8re et chauffe-eau"]
+-
+  name: Fourniture et pose d'un sèche serviettes
+  uuid: 23b8efd4-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["s\u00e8che-serviette", "pose-serviette"]
+-
+  name: Fourniture et pose de chaudière individuelle à bois
+  uuid: 23b91f40-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["chaudi\u00e8re \u00e0 bois", "pose chaudi\u00e8re \u00e0 bois", "installation chaudi\u00e8re \u00e0 bois"]
+-
+  name: Fourniture et pose de chaudière individuelle au fioul
+  uuid: 23b950c8-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["chaudi\u00e8re au fioul", "pose chaudi\u00e8re au fioul", "installation chaudi\u00e8re au fioul"]
+-
+  name: Fourniture et pose de chaudière individuelle au gaz
+  uuid: 23b98214-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["chaudi\u00e8re au gaz", "pose chaudi\u00e8re au gaz", "installation chaudi\u00e8re au gaz"]
+-
+  name: Fourniture et pose de chauffe-eau électrique
+  uuid: 23b9b414-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["chauffe-eau \u00e9lectrique", "pose chauffe-eau \u00e9lectrique", "installation chauffe-eau \u00e9lectrique"]
+-
+  name: Fourniture et pose de chauffe-eau solaire
+  uuid: 23b9e308-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["chauffe-eau solaire", "pose chauffe-eau solaire", "installation chauffe-eau solaire"]
+-
+  name: Fourniture et pose de cheminées
+  uuid: 23ba11c0-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["chemin\u00e9e", "pose de chemin\u00e9e", "installation de chemin\u00e9e"]
+-
+  name: Fourniture et pose de convecteurs électriques
+  uuid: 23ba42da-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["convecteur \u00e9lectrique", "radiateur \u00e9lectrique"]
+-
+  name: Fourniture et pose de radiateurs supplémentaires
+  uuid: 23ba723c-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["radiateur", "convecteur"]
+-
+  name: Installation d'un chauffage central
+  uuid: 23baa28e-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["chauffage central"]
+-
+  name: Installation d'un chauffage géothermique
+  uuid: 23bad45c-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["chauffage g\u00e9othermique"]
+-
+  name: Plancher chauffant (eau chaude)
+  uuid: 23bb03fa-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["plancher chauffant"]
+-
+  name: Plancher chauffant rayonnant (électrique)
+  uuid: 23bb33f2-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["plancher chauffant \u00e9lectrique", "plancher rayonnant \u00e9lectrique"]
+-
+  name: Pompes à chaleur
+  uuid: 23bb6552-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["pompe \u00e0 chaleur"]
+-
+  name: Ramonage
+  uuid: 23bb973e-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["ramonage", "ramoneur"]
+-
+  name: "Régulation de chauffage : thermostat, programmateur"
+  uuid: 23bbc5b0-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["r\u00e9gulation de chauffage", "thermostat", "programmateur"]
+-
+  name: Remplacement / dépannage de chaudière individuelle à bois
+  uuid: 23bbf526-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["d\u00e9pannage de chaudi\u00e8re \u00e0 bois", "remplacement de chaudi\u00e8re \u00e0 bois"]
+-
+  name: Remplacement / dépannage de chaudière individuelle au fioul
+  uuid: 23bc2546-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["d\u00e9pannage de chaudi\u00e8re au fioul", "remplacement de chaudi\u00e8re au fioul"]
+-
+  name: Remplacement / dépannage de chaudière individuelle au gaz
+  uuid: 23bc58cc-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["d\u00e9pannage de chaudi\u00e8re au gaz", "remplacement de chaudi\u00e8re au gaz"]
+-
+  name: Remplacement / dépannage de chauffe-eau électrique
+  uuid: 23bc8874-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["d\u00e9pannage de chauffe-eau \u00e9lectrique", "remplacement de chauffe-eau \u00e9lectrique"]
+-
+  name: Remplacement de chaudière
+  uuid: 23bcb772-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["remplacement de chaudi\u00e8re"]
+-
+  name: Fourniture et pose d'une climatisation réversible/chauffage
+  uuid: 23bd162c-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["climatisation r\u00e9versible", "pose de climatisation r\u00e9versible", "installation de climatisation r\u00e9versible"]
+-
+  name: Installation d'une ventilation cuisine
+  uuid: 23bd763a-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["ventilation de cuisine", "a\u00e9ration de cuisine", "hotte aspirante"]
+-
+  name: Installation d'une ventilation salle de bains
+  uuid: 23bda7ae-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["ventilation de salle de bain", "VMC"]
+-
+  name: Assainissement - Fosses septiques - forage
+  uuid: 23be4b14-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["assainissement", "fosse sceptique", "lagunage", "forage", "\u00e9puration de l'eau"]
+-
+  name: Construction, murs, cloisons, plafonds
+  uuid: 23bf26a6-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["construction de murs", "construction de cloisons", "construction de plafonds"]
+-
+  name: Etanchéité - Isolation des terrasses
+  uuid: 23bfe834-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["isolation de terrasse", "humidit\u00e9 terrasse"]
+-
+  name: Isolation thermique des façades / murs extérieurs
+  uuid: 23c07b82-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["isolation de fa\u00e7ade", "isolation des murs", "isolation thermique de la maison"]
+-
+  name: "Cuisine : aménagement et réalisation"
+  uuid: 23c13fa4-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["am\u00e9nagement de cuisine", "r\u00e9alisation de cuisine"]
+-
+  name: Fourniture et pose d'éviers, de lavabos
+  uuid: 23c16f56-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["\u00e9vier", "lavabo"]
+-
+  name: Fourniture et pose de mobilier de cuisine
+  uuid: 23c1a2aa-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["pose de mobilier de cuisine", "meuble de cuisine"]
+-
+  name: Fourniture et pose de robinets, mitigeurs...
+  uuid: 23c2084e-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["robinet", "robinetterie", "mitigeur", "flexible"]
+-
+  name: Pose de mobilier de cuisine
+  uuid: 23c2379c-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["pose de mobilier de cuisine", "meuble de cuisine"]
+-
+  name: Dépannage de chaudière, chauffe-eau, chauffe-bains
+  uuid: 23c2dd78-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["d\u00e9pannage de chaudi\u00e8re", "d\u00e9pannage de chauffe-eau", "d\u00e9pannage de chauffe-bains"]
+-
+  name: Dépannage de sanitaires
+  uuid: 23c30c62-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["d\u00e9bouchage de sanitaire", "sanitaires", "d\u00e9pannage de WC"]
+-
+  name: Dépannage électrique
+  uuid: 23c37058-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["d\u00e9pannage \u00e9lectrique", "urgence \u00e9lectrique", "court-circuit", "fusibles", "disjoncteur"]
+-
+  name: "Dépannage en plomberie : fuite, joints, petits travaux"
+  uuid: 23c3a15e-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["fuite d'eau", "joint", "d\u00e9pannage plomberie", "urgence plomberie", "tuyauterie", "canalisation", "flexible", "vidange de siphon", "d\u00e9bouchage d'\u00e9vier ou de lavabo"]
+-
+  name: Automatisme d'éclairage
+  uuid: 23c3d7aa-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["\u00e9clairage automatique", "d\u00e9tecteur de mouvement", "minuteur"]
+-
+  name: "Installation électrique : rénovation complète ou partielle"
+  uuid: 23c46d8c-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["installation \u00e9lectrique", "cablage", "disjoncteur", "tableau \u00e9lectrique"]
+-
+  name: Installation électrique courant faible
+  uuid: 23c49d52-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["\u00e9lectricit\u00e9 courant faible", "courant faible"]
+-
+  name: Petits travaux en électricité (rajout de prises, de luminaires, 
+  uuid: 23c4cba6-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["travaux \u00e9lectrique", "prise \u00e9lectrique", "luminaire", "interrupteurs", "\u00e9clairage", "variateur"]
+-
+  name: Plafond rayonnant
+  uuid: 23c5021a-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["plafond rayonnant", "plafond chauffant"]
+-
+  name: "Production électrique : photovoltaïque"
+  uuid: 23c53708-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["\u00e9lectricit\u00e9 photovolta\u00efque", "production \u00e9nergie solaire"]
+-
+  name: Chauffage à bois granulés
+  uuid: 23c56e9e-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["chauffage \u00e0 bois", "chauffage \u00e0 granul\u00e9", "po\u00eale \u00e0 bois"]
+-
+  name: Chauffe-eau solaire
+  uuid: 23c59dce-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["chauffe-eau solaire"]
+-
+  name: Climatisation Réversible
+  uuid: 23c5cdd0-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["climatisation r\u00e9versible"]
+-
+  name: Installation de panneaux photovoltaïques
+  uuid: 23c60d18-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["panneaux photovolta\u00efque", "panneaux solaire"]
+-
+  name: Géothermie
+  uuid: 23c657dc-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["g\u00e9othermie"]
+-
+  name: Petites éoliennes
+  uuid: 23c69fc6-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["\u00e9nergie \u00e9olienne", "\u00e9olienne"]
+-
+  name: Planchers chauffants basse température
+  uuid: 23c6e6fc-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["plancher chauffant basse temp\u00e9rature"]
+-
+  name: Récupération des eaux de pluie
+  uuid: 23c72e96-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["r\u00e9cup\u00e9ration des eaux de pluie", "cuve pour eaux de pluie", "arrosage \u00e0 l'eau de pluie"]
+-
+  name: Traitement de l'eau
+  uuid: 23c7764e-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["traitement de l'eau", "eau potable"]
+-
+  name: Abattage d'arbres
+  uuid: 23c960d0-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["abattage d'arbre", "coupage d'arbre"]
+-
+  name: Amélioration de jardin et de terrasse
+  uuid: 23c991e0-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["am\u00e9lioration de jardin", "am\u00e9lioration de terrasse"]
+-
+  name: Arrosage automatique (création)
+  uuid: 23c9c2f0-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["arrosage automatique"]
+-
+  name: Création de jardins, pelouses et de parcs
+  uuid: 23c9f324-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["cr\u00e9ation de jardins", "cr\u00e9ation de pelouse", "cr\u00e9ation de parcs", "cr\u00e9ation de vergers", "gazon"]
+-
+  name: Décoration jardin / patio / pergola / treillage / fontaine
+  uuid: 23ca52ba-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["d\u00e9coration de jardin", "patio", "pergola", "treillage", "pose de fontaine"]
+-
+  name: Elagage/Taille
+  uuid: 23caa1de-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["\u00e9lagage d'arbre", "taille d'arbre", "coupe branche"]
+-
+  name: Entretien de jardin (ponctuel ou à l'année)
+  uuid: 23cb474c-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["entretien de jardin", "jardinier", "entretien de pelouse", "gazon"]
+-
+  name: Garages / Abris de jardin
+  uuid: 23cb7776-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["garage", "parking", "abri de jardin", "cabane"]
+-
+  name: Terrassement
+  uuid: 23cc097a-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["Terrassement"]
+-
+  name: Travaux de peinture de plafonds, murs, boiseries
+  uuid: 23cc9ade-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["peinture de plafond", "peindre plafond", "peinture de mur", "peindre mur", "peinture boiserie", "peindre boiserie"]
+-
+  name: Fourniture et pose de chaudière
+  uuid: 23ce4d7a-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["chaudi\u00e8re", "pose chaudi\u00e8re", "installation chaudi\u00e8re"]
+-
+  name: Fourniture et pose de lavabos, baignoires, douches, WC...
+  uuid: 23ce7e08-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["lavabo", "baignoire", "douche", "bac de douche", "WC", "sanitaires", "cuvette de toilettes", "bidet"]
+-
+  name: "Plomberie : installation ou rénovation complète"
+  uuid: 23ceae3c-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["travaux de plomberie", "r\u00e9novation de plomberie", "installation de plomberie"]
+-
+  name: Travaux de plomberie de cuisine
+  uuid: 23ceddee-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["plomberie de cuisine"]
+-
+  name: Travaux de plomberie salle de bains
+  uuid: 23cf0dfa-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["plomberie de salle de bain"]
+-
+  name: Création complète de salle de bains
+  uuid: 23d24dee-13a4-11e2-b98a-00259050d160
+  bag_of_words: ["cr\u00e9ation salle de bain", "am\u00e9nagement salle de bain", "pose salle de bain", "d\u00e9coration salle de bain", "r\u00e9novation salle de bain"]
+-
+  name: Cheminée (regroupement) 
+  uuid: 33fb4fd4-3fb1-11e2-8eb2-00259050d160
+  bag_of_words: ["installation chemin\u00e9e", "r\u00e9paration chemin\u00e9e", "ramonage", "conduit de chemin\u00e9e"]
+-
+  name: Energies renouvelables (regroupement) 
+  uuid: 36a5931a-3fb2-11e2-8eb2-00259050d160
+  bag_of_words: ["climatisation r\u00e9versible", "pompe \u00e0 chaleur", "chauffage solaire", "chauffe-eau solaire", "panneaux photovoltaique"]
+-
+  name: Electricien (Regroupement)
+  uuid: 3e0bcaec-2e51-11e2-8eb2-00259050d160
+  bag_of_words: ["\u00e9lectricien", "\u00e9lectricit\u00e9"]
+-
+  name: Solaire (regroupement) 
+  uuid: 535f7a36-3fb5-11e2-8eb2-00259050d160
+  bag_of_words: ["panneaux photovolta\u00efques", "panneaux solaires", "chauffe-eau solaire", "chauffage solaire"]
+-
+  name: Pose de lavabos et baignoires (regroupement) 
+  uuid: 5a68db34-3fb4-11e2-8eb2-00259050d160
+  bag_of_words: ["lavabo", "baignoire", "douche", "\u00e9vier", "sanitaires", "cr\u00e9ation de salle de bain"]
+-
+  name: Menuisier (regroupement) 
+  uuid: 5b60dc86-3fb3-11e2-8eb2-00259050d160
+  bag_of_words: ["Menuisier"]
+-
+  name: Salle de bain (regroupement) 
+  uuid: 6997d2b8-3fb4-11e2-8eb2-00259050d160
+  bag_of_words: ["salle de bain", "seche-serviette", "creation de salle de bain", "ventilation salle de bain", "plomberie salle de bain"]
+-
+  name: Construction de maison (regroupement)
+  uuid: 8bdad882-3fb1-11e2-8eb2-00259050d160
+  bag_of_words: ["construction"]
+-
+  name: Cours Espagnol - Aladom
+  uuid: 8eb5ebe2-1dbe-11e2-8eb2-00259050d160
+  bag_of_words: []
+-
+  name: Couvreur (regroupement)
+  uuid: a650589a-3fb1-11e2-8eb2-00259050d160
+  bag_of_words: ["couvreur"]
+-
+  name: "Combles : isolation thermique (version graphique)"
+  uuid: abf973f0-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["isolation des combles", "isolation thermique des combles"]
+-
+  name: Fourniture et pose de faux plafonds / plafond tendu (version graphique)
+  uuid: abf9dd9a-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["pose de plafond", "pose de faux-plafond", "pose de plafond tendu"]
+-
+  name: Traitement de l'eau / adoucisseur / osmoseur (version graphique)
+  uuid: ac016ca4-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["traitement de l'eau", "adoucisseur", "osmoseur", "duret\u00e9 de l'eau"]
+-
+  name: Vérification de votre chauffage et/ou mise en service (version graphique)
+  uuid: ac01dfa4-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["v\u00e9rification chauffage", "norme chauffage", "d\u00e9marrage chauffage", "mise en service chauffage"]
+-
+  name: Vérification de votre installation électrique (version graphique)
+  uuid: ac024cbe-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["v\u00e9rification d'installation \u00e9lectrique", "s\u00e9curit\u00e9", "normes \u00e9lectriques", "r\u00e9glementation"]
+-
+  name: Etanchéité - Isolation des toitures (version graphique)
+  uuid: ac057664-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["isolation de toiture", "\u00e9tanch\u00e9it\u00e9 de toiture", "toiture humide", "tuile perc\u00e9e"]
+-
+  name: Fourniture et pose d'isolation thermique dans les combles (version graphique)
+  uuid: ac05e1da-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["pose d'isolation thermique des combles", "isolation thermique des combles"]
+-
+  name: Réparation de cheminée sur toiture (version graphique)
+  uuid: ac08cfb2-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["r\u00e9paration de chemin\u00e9e", "r\u00e9paration de chemin\u00e9e sur toiture"]
+-
+  name: "Chauffage électrique : Installation, rénovation (version graphique)"
+  uuid: ac0933c6-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["chauffage \u00e9lectrique"]
+-
+  name: "Chauffage solaire : Installation, rénovation (version graphique)"
+  uuid: ac099eb0-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["chauffage solaire"]
+-
+  name: Contrats d'entretien pour votre chaudière (version graphique)
+  uuid: ac0a0198-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["entretien de chaudi\u00e8re", "contrat d'entretien de chaudi\u00e8re"]
+-
+  name: Dépannage de convecteurs électriques (version graphique)
+  uuid: ac0a68b8-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["d\u00e9pannage de convecteur \u00e9lectrique"]
+-
+  name: Entretien et dépannage de chaudière, chauffe-eau, chauffe-bain (version graphique)
+  uuid: ac0ad1e0-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["d\u00e9pannage chaudi\u00e8re", "d\u00e9pannage chauffe-eau", "entretien chaudi\u00e8re", "entretien chauffe-eau"]
+-
+  name: Fourniture et pose d'un sèche serviettes (version graphique)
+  uuid: ac0b5f84-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["s\u00e8che-serviette", "pose-serviette"]
+-
+  name: Fourniture et pose de chaudière individuelle à bois (version graphique)
+  uuid: ac0bc262-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["chaudi\u00e8re \u00e0 bois", "pose chaudi\u00e8re \u00e0 bois", "installation chaudi\u00e8re \u00e0 bois"]
+-
+  name: Fourniture et pose de chaudière individuelle au fioul (version graphique)
+  uuid: ac0c284c-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["pose chaudi\u00e8re au fioul", "installation chaudi\u00e8re au fioul"]
+-
+  name: Fourniture et pose de chaudière individuelle au gaz (version graphique)
+  uuid: ac0c8b0c-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["pose chaudi\u00e8re au gaz", "installation chaudi\u00e8re au gaz"]
+-
+  name: Fourniture et pose de chauffe-eau électrique (version graphique)
+  uuid: ac0cf2f4-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["chauffe-eau \u00e9lectrique", "installation chauffe-eau \u00e9lectrique"]
+-
+  name: Fourniture et pose de chauffe-eau solaire (version graphique)
+  uuid: ac0d5f32-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["chauffe-eau solaire", "pose de chauffe-eau solaire", "installation de chauffe-eau solaire"]
+-
+  name: Fourniture et pose de cheminées (version graphique)
+  uuid: ac0dc346-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["chemin\u00e9e", "pose de chemin\u00e9e", "installation de chemin\u00e9e"]
+-
+  name: Fourniture et pose de convecteurs électriques (version graphique)
+  uuid: ac0e2f2a-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["convecteur \u00e9lectrique", "radiateur \u00e9lectrique"]
+-
+  name: Fourniture et pose de radiateurs supplémentaires (version graphique)
+  uuid: ac0e9884-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["radiateur", "convecteur"]
+-
+  name: Installation d'un chauffage central (version graphique)
+  uuid: ac0f15de-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["installation d'un chauffage central"]
+-
+  name: Installation d'un chauffage géothermique (version graphique)
+  uuid: ac0f7d9e-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["chauffage g\u00e9othermique"]
+-
+  name: Plancher chauffant (eau chaude) (version graphique)
+  uuid: ac0ff602-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["plancher chauffant"]
+-
+  name: Plancher chauffant rayonnant (électrique) (version graphique)
+  uuid: ac1072d0-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["plancher chauffant \u00e9lectrique", "plancher rayonnant \u00e9lectrique"]
+-
+  name: Pompes à chaleur (version graphique)
+  uuid: ac10e7f6-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["pompe \u00e0 chaleur"]
+-
+  name: Ramonage (version graphique)
+  uuid: ac115880-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["ramonage", "ramoneur"]
+-
+  name: "Régulation de chauffage : thermostat, programmateur (version graphique)"
+  uuid: ac11d9a4-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["r\u00e9gulation de chauffage, thermostat, programmateur"]
+-
+  name: Remplacement / dépannage de chaudière individuelle à bois (version graphique)
+  uuid: ac124948-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["d\u00e9pannage de chaudi\u00e8re \u00e0 bois", "remplacement de chaudi\u00e8re \u00e0 bois"]
+-
+  name: Remplacement / dépannage de chaudière individuelle au fioul (version graphique)
+  uuid: ac12b680-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["d\u00e9pannage de chaudi\u00e8re au fioul", "remplacement de chaudi\u00e8re au fioul"]
+-
+  name: Remplacement / dépannage de chaudière individuelle au gaz (version graphique)
+  uuid: ac131e40-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["d\u00e9pannage de chaudi\u00e8re au gaz", "remplacement de chaudi\u00e8re au gaz"]
+-
+  name: Remplacement / dépannage de chauffe-eau électrique (version graphique)
+  uuid: ac1385ec-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["remplacement chauffe-eau \u00e9lectrique", "d\u00e9pannage chauffe-eau \u00e9lectrique"]
+-
+  name: Remplacement de chaudière (version graphique)
+  uuid: ac13f5a4-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["remplacement de chaudi\u00e8re"]
+-
+  name: Fourniture et pose d'une climatisation réversible/chauffage (version graphique)
+  uuid: ac14d244-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["pose de climatisation r\u00e9versible"]
+-
+  name: Installation d'une ventilation cuisine (version graphique)
+  uuid: ac15bfc4-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["ventilation de cuisine", "a\u00e9ration de cuisine", "hotte aspirante"]
+-
+  name: Installation d'une ventilation salle de bains (version graphique)
+  uuid: ac163530-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["ventilation de salle de bain", "VMC"]
+-
+  name: Assainissement - Fosses septiques - forage (version graphique)
+  uuid: ac179a9c-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["assainissement", "fosse sceptique", "lagunage", "forage", "\u00e9puration de l'eau"]
+-
+  name: Construction, murs, cloisons, plafonds (version graphique)
+  uuid: ac197420-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["construction de murs", "construction de cloisons", "construction de plafonds"]
+-
+  name: Etanchéité - Isolation des terrasses (version graphique)
+  uuid: ac1b574a-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["isolation de terrasse", "\u00e9tanch\u00e9it\u00e9 de terrasse", "terrasse \u00e9tanche", "humidit\u00e9 terrasse"]
+-
+  name: Isolation thermique des façades / murs extérieurs (version graphique)
+  uuid: ac1cb28e-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["isolation de fa\u00e7ade", "isolation des murs", "isolation thermique de la maison"]
+-
+  name: "Cuisine : aménagement et réalisation (version graphique)"
+  uuid: ac1e7f42-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["am\u00e9nagement de cuisine", "r\u00e9alisation de cuisine"]
+-
+  name: Fourniture et pose d'éviers, de lavabos (version graphique)
+  uuid: ac1eeee6-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["\u00e9vier, lavabo"]
+-
+  name: Fourniture et pose de mobilier de cuisine (version graphique)
+  uuid: ac1f6dbc-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["pose de mobilier de cuisine", "meuble de cuisine"]
+-
+  name: Fourniture et pose de robinets, mitigeurs... (version graphique)
+  uuid: ac204872-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["robinet", "robinetterie", "mitigeur", "flexible"]
+-
+  name: Pose de mobilier de cuisine (version graphique)
+  uuid: ac20b046-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["pose de mobilier de cuisine", "meuble de cuisine"]
+-
+  name: Dépannage de chaudière, chauffe-eau, chauffe-bains (version graphique)
+  uuid: ac21f4ba-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["d\u00e9pannage de chaudi\u00e8re", "d\u00e9pannage de chauffe-eau", "d\u00e9pannage de chauffe-bains"]
+-
+  name: Dépannage de sanitaires (version graphique)
+  uuid: ac2268d2-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["d\u00e9bouchage de sanitaire", "sanitaires", "d\u00e9pannage de WC"]
+-
+  name: Dépannage électrique (version graphique)
+  uuid: ac23473e-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["d\u00e9pannage \u00e9lectrique", "urgence \u00e9lectrique", "court-circuit", "fusibles", "disjoncteur"]
+-
+  name: "Dépannage en plomberie : fuite, joints, petits travaux (version graphique)"
+  uuid: ac23b8ae-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["fuite d'eau", "joint", "d\u00e9pannage plomberie", "urgence plomberie", "tuyauterie", "canalisation", "flexible", "vidange de siphon", "d\u00e9bouchage d'\u00e9vier ou de lavabo"]
+-
+  name: Automatisme d'éclairage (version graphique)
+  uuid: ac242276-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["\u00e9clairage automatique", "d\u00e9tecteur de mouvement", "minuteur"]
+-
+  name: "Installation électrique : rénovation complète ou partielle (version graphique)"
+  uuid: ac257ca2-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["installation \u00e9lectrique", "cablage", "disjoncteur", "tableau \u00e9lectrique"]
+-
+  name: Installation électrique courant faible (version graphique)
+  uuid: ac25eac0-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["\u00e9lectricit\u00e9 courant faible", "courant faible"]
+-
+  name: Petits travaux en électricité (rajout de prises, de luminaires, (version graphique)
+  uuid: ac265fb4-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["travaux \u00e9lectrique", "prise \u00e9lectrique", "luminaire", "interrupteurs", "variateur", "\u00e9clairage"]
+-
+  name: Plafond rayonnant (version graphique)
+  uuid: ac26cb34-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["plafond rayonnant", "plafond chauffant"]
+-
+  name: "Production électrique : photovoltaïque (version graphique)"
+  uuid: ac273c2c-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["\u00e9lectricit\u00e9 photovolta\u00efque", "production \u00e9nergie solaire"]
+-
+  name: Chauffage à bois granulés (version graphique)
+  uuid: ac27ab76-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["chauffage \u00e0 bois", "chauffage \u00e0 granul\u00e9", "po\u00eale \u00e0 bois"]
+-
+  name: Chauffe-eau solaire (version graphique)
+  uuid: ac28209c-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["chauffe-eau solaire"]
+-
+  name: Climatisation Réversible (version graphique)
+  uuid: ac28aa4e-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["climatisation r\u00e9versible"]
+-
+  name: Installation de panneaux photovoltaïques (version graphique)
+  uuid: ac29229e-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["panneaux photovolta\u00efque", "panneaux solaire"]
+-
+  name: Géothermie (version graphique)
+  uuid: ac299cc4-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["g\u00e9othermie"]
+-
+  name: Petites éoliennes (version graphique)
+  uuid: ac2a0f9c-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["\u00e9nergie \u00e9olienne", "\u00e9olienne"]
+-
+  name: Planchers chauffants basse température (version graphique)
+  uuid: ac2a96c4-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["plancher chauffant basse temp\u00e9rature"]
+-
+  name: Récupération des eaux de pluie (version graphique)
+  uuid: ac2b0870-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["r\u00e9cup\u00e9ration des eaux de pluie", "cuve pour eaux de pluie", "arrosage \u00e0 l'eau de pluie"]
+-
+  name: Traitement de l'eau (version graphique)
+  uuid: ac2b7c2e-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["traitement de l'eau", "eau potable"]
+-
+  name: Abattage d'arbres (version graphique)
+  uuid: ac2f0632-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["abattage d'arbre", "coupage d'arbre"]
+-
+  name: Amélioration de jardin et de terrasse (version graphique)
+  uuid: ac2f75e0-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["am\u00e9lioration de jardin", "am\u00e9lioration de terrasse"]
+-
+  name: Arrosage automatique (création) (version graphique)
+  uuid: ac2fe778-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["arrosage automatique"]
+-
+  name: Création de jardins, pelouses et de parcs (version graphique)
+  uuid: ac305938-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["cr\u00e9ation de jardins", "cr\u00e9ation de pelouse", "cr\u00e9ation de parcs", "cr\u00e9ation de vergers", "gazon"]
+-
+  name: Décoration jardin / patio / pergola / treillage / fontaine (version graphique)
+  uuid: ac31390c-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["d\u00e9coration de jardin", "patio", "pergola", "treillage", "pose de fontaine"]
+-
+  name: Elagage/Taille (version graphique)
+  uuid: ac31a0f4-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["\u00e9lagage d'arbre", "taille d'arbre", "coupe branche"]
+-
+  name: Entretien de jardin (ponctuel ou à l'année) (version graphique)
+  uuid: ac32128c-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["entretien de jardin", "jardinier", "entretien de pelouse", "gazon"]
+-
+  name: Garages / Abris de jardin (version graphique)
+  uuid: ac3278c6-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["garage", "parking", "abri de jardin", "cabane"]
+-
+  name: Terrassement (version graphique)
+  uuid: ac33b4b6-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["Coucou"]
+-
+  name: Travaux de peinture de plafonds, murs, boiseries (version graphique)
+  uuid: ac34ed90-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["peinture de plafond", "peindre plafond", "peinture de mur", "peindre mur", "peinture boiserie", "peindre boiserie"]
+-
+  name: Fourniture et pose de chaudière (version graphique)
+  uuid: ac38aee4-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["pose chaudi\u00e8re", "installation"]
+-
+  name: Fourniture et pose de lavabos, baignoires, douches, WC... (version graphique)
+  uuid: ac391e06-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["lavabo", "baignoire", "douche", "WC", "sanitaires", "cuvette de toilettes", "bidet"]
+-
+  name: "Plomberie : installation ou rénovation complète (version graphique)"
+  uuid: ac39844a-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["travaux de plomberie", "r\u00e9novation de plomberie", "installation de plomberie"]
+-
+  name: Travaux de plomberie de cuisine (version graphique)
+  uuid: ac39ed22-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["plomberie de cuisine"]
+-
+  name: Travaux de plomberie salle de bains (version graphique)
+  uuid: ac3a4e20-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["plomberie de salle de bain"]
+-
+  name: Création complète de salle de bains (version graphique)
+  uuid: ac411f2a-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["salle de bain", "salle de douche", "cr\u00e9ation de salle de bain", "am\u00e9nagement", "pose", "d\u00e9coration", "r\u00e9novation"]
+-
+  name: Chauffagiste (Regroupement) (version graphique)
+  uuid: ac497dfa-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["chauffagiste", "chauffage", "installation de chaudi\u00e8re", "economie d'\u00e9nergie"]
+-
+  name: Electricien (Regroupement) (version graphique)
+  uuid: ac49e696-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["\u00e9lectricien", "\u00e9lectricit\u00e9"]
+-
+  name: Chauffage géothermique (regroupement) (version graphique)
+  uuid: ac4b9e5a-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["chauffage g\u00e9othermique", "puit canadien", "puit provencal", "g\u00e9othermie", "pompe \u00e0 chaleur"]
+-
+  name: Cheminée (regroupement)  (version graphique)
+  uuid: ac4c0afc-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["installation chemin\u00e9e", "r\u00e9paration chemin\u00e9e", "ramonage"]
+-
+  name: Couvreur (regroupement) (version graphique)
+  uuid: ac4dbc44-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["zing"]
+-
+  name: Cuisine  (regroupement) (version graphique)
+  uuid: ac4eb25c-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["cuisine", "cuisiniste"]
+-
+  name: Élagage (regroupement)  (version graphique)
+  uuid: ac500a9e-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["\u00e9lagage d'arbre", "taille d'arbre", "coupe branche", "abattage d'arbre", "couper tronc d'arbre"]
+-
+  name: Energies renouvelables (regroupement)  (version graphique)
+  uuid: ac5079a2-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["climatisation r\u00e9versible", "pompe \u00e0 chaleur", "chauffage solaire", "chauffe-eau solaire", "panneaux photovoltaique"]
+-
+  name: Garages et abris de jardin (regroupement)  (version graphique)
+  uuid: ac5340f6-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["garage", "abri de jardin", "porte de garage"]
+-
+  name: Isolation (regroupement)  (version graphique)
+  uuid: ac543600-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["isolation thermique", "isolation", "\u00e9tanch\u00e9it\u00e9", "d\u00e9perdition thermique", "\u00e9conomie d'\u00e9nergies"]
+-
+  name: Jardinier et Jardin (regroupement)  (version graphique)
+  uuid: ac54a6ee-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["arrosage automatique", "cr\u00e9ation de jardins", "cr\u00e9ation de pelouses", "cr\u00e9ation de parcs", "am\u00e9lioration de jardin", "am\u00e9lioration de terrasse", "entretien de jardin", "d\u00e9coration de jardin", "patio, pergola, treillage ou fontaine"]
+-
+  name: Menuisier (regroupement)  (version graphique)
+  uuid: ac558ac8-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["Pipopouet tralalala"]
+-
+  name: Plafonds (regroupement)  (version graphique)
+  uuid: ac57c72a-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["peinture de plafond", "peindre plafond", "plafond", "faux-plafond", "plafond tendu", "plafond rayonnant"]
+-
+  name: Plombier (regroupement)  (version graphique)
+  uuid: ac591b66-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["plombier", "plomberie", "d\u00e9pannage en plomberie", "plomberie cuisine", "plomberie salle de bain", "robinet", "mitigeur", "siphon", "\u00e9vacuation"]
+-
+  name: Pompe à  chaleur (regroupement)  (version graphique)
+  uuid: ac598ea2-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["pompe a chaleur", "climatisation r\u00e9versible"]
+-
+  name: Pose de lavabos et baignoires (regroupement)  (version graphique)
+  uuid: ac5ae89c-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["lavabo", "baignoire", "douche", "\u00e9vier", "sanitaires", "cr\u00e9ation de salle de bain"]
+-
+  name: Salle de bain (regroupement)  (version graphique)
+  uuid: ac5b5714-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["salle de bain", "seche-serviette", "creation de salle de bain", "ventilation salle de bain", "plomberie salle de bain"]
+-
+  name: Solaire (regroupement)  (version graphique)
+  uuid: ac5ca8d0-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["panneaux photovolta\u00efques", "panneaux solaires", "chauffe-eau solaire", "chauffage solaire"]
+-
+  name: Traitement des eaux (regroupement)  (version graphique)
+  uuid: ac5e6b70-502b-11e2-8eb2-00259050d160
+  bag_of_words: ["traitement de l'eau", "purification", "adoucisseur", "osmoseur", "duret\u00e9 de l'eau", "eau potable", "qualit\u00e9 de l'eau"]
+-
+  name: Plafonds (regroupement) 
+  uuid: b8aac53c-3fb3-11e2-8eb2-00259050d160
+  bag_of_words: ["peinture de plafond", "peindre plafond", "plafond", "faux-plafond", "plafond tendu", "plafond rayonnant"]
+-
+  name: Traitement des eaux (regroupement) 
+  uuid: cd6b9706-3fb5-11e2-8eb2-00259050d160
+  bag_of_words: ["traitement de l'eau", "purification", "adoucisseur", "osmoseur", "duret\u00e9 de l'eau", "eau potable", "qualit\u00e9 de l'eau"]
+-
+  name: Garages et abris de jardin (regroupement) 
+  uuid: d45a2346-3fb2-11e2-8eb2-00259050d160
+  bag_of_words: ["garage", "abri de jardin", "porte de garage"]
+-
+  name: Cuisine  (regroupement)
+  uuid: e22bae3c-3fb1-11e2-8eb2-00259050d160
+  bag_of_words: ["cuisine", "cuisiniste"]
+-
+  name: Plombier (regroupement) 
+  uuid: fc1217bc-3fb3-11e2-8eb2-00259050d160
+  bag_of_words: ["plombier", "plomberie", "d\u00e9pannage en plomberie", "plomberie cuisine", "plomberie salle de bain", "robinet", "mitigeur", "siphon", "\u00e9vacuation"]
+...
